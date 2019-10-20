@@ -74,7 +74,7 @@
 
             <p class="subheading text-xs-center">
               <v-icon left class="black--text">today</v-icon>
-              9 e 10 de Novembro de 2019
+              8 e 9 de Novembro de 2019
             </p>
             <p class="subheading text-xs-center mb-4 pb-4">
               <v-icon left class="black--text">place</v-icon>
@@ -95,7 +95,7 @@
             <p class="headline text-xs-center mt-4 pt-4 mb-0">
               Faltam:
             </p>
-            <countdown :time="new Date('November 9, 2019 09:00:00') - Date.now()" class="hidden-xs-only my-2 mb-0 pb-0">
+            <countdown :time="new Date('November 8, 2019 09:00:00') - Date.now()" class="hidden-xs-only my-2 mb-0 pb-0">
               <template slot-scope="props">
                 <div class="timer-container">
                   <div class="time-unit">
